@@ -4,76 +4,69 @@
 
 <h1 align="center">Meilisearch</h1>
 
-👋  Hi! This is Meilisearch, an open-source, easy-to-use, blazingly fast, and hyper-relevant search engine built in Rust.
+👋  你好! 这里是 Meilisearch，一个 Rust 构建的开源、易用、高速，并且搜索结果高相关性的搜索引擎。
 
-Meilisearch is a young company based in Paris. From the outset, our goal is a simple and intuitive experience for both developers and end-users. To know more about us, you can read our [blog](https://blog.meilisearch.com/).
+Meilisearch 是一家位于巴黎的年轻公司。从一开始，我们的目标就是为开发者和用户提供一个简单而直观的体验。如果想要了解更多关于我们的信息，你可以看看我们的 [博客](https://blog.meilisearch.com/)。
 
 ## 🔎 Meilisearch
 
-Our main repository is [Meilisearch](https://github.com/meilisearch/meilisearch). The code in this repository is only concerned with  exposing the HTTP API, managing multiple indexes, and handling the update store.
+我们的主仓库是 [Meilisearch](https://github.com/meilisearch/meilisearch)。 此仓库只存放 HTTP API、多索引管理和操作储存更新的代码。
 
-Search and indexation are the domain of our core engine, [milli](https://github.com/meilisearch/milli/), while our [tokenizer library](https://github.com/meilisearch/Tokenizer) handles tokenization.
+搜索和索引由我们的核心引擎 [milli](https://github.com/meilisearch/milli/) 负责，而我们的 [tokenizer library](https://github.com/meilisearch/Tokenizer) 负责分词。
 
-You can learn more about Meilisearch and its features in our [documentation](https://docs.meilisearch.com). 
+你可以在我们的 [文档](https://docs.meilisearch.com) 中了解到更多有关 Meilisearch 及其功能的信息。
 
+## 🔗 集成 
 
-## 🔗 Integrations 
+我们团队和社区正在努力将 Meilisearch 推广到几乎所有流行的 Web 开发语言、框架与部署选项中。 我们正在不断的开发新的集成方式。 请在[集成指南](https://github.com/meilisearch/integration-guides)中查看完整列表。
 
-Our team and community have worked hard to bring Meilisearch to almost all popular web development languages, frameworks, and deployment options. New integrations are constantly in development. Check the complete list in [the integration guides](https://github.com/meilisearch/integration-guides).
+## 📚 文档 
 
-## 📚 Documentation 
+我们的 [文档站点](https://docs.meilisearch.com) 托管在 [GitHub 公开仓库](https://github.com/meilisearch/documentation) 中。
 
-Our [documentation website](https://docs.meilisearch.com) is hosted in a [public GitHub repository](https://github.com/meilisearch/documentation).
+## 🤝 贡献 
 
-## 🤝 Contributing 
+嘿! 我们很高兴你考虑为 Meilisearch 做出贡献! 请随意选择一个带有 `good first issue` 标签的 issue 并提出您的问题。有些地方可能不太清楚，我们可以为你提供帮助!
 
-Hey! We're glad you're thinking about contributing to Meilisearch! Feel free to pick an issue labeled as `good first issue` and  ask any question you need. Some points might not be clear, and we are available to help you!
+在你创建PR前，我们强烈建议你看下对应仓库中 `CONTRIBUTING.md` 文件或者 `README.md` 的贡献部分。
 
-Before creating your PR, we strongly encourage you to read the repository's corresponding`CONTRIBUTING.md` or otherwise the "Contributing" section of the `README.md`.
+## 💡 产品：反馈 & 建议 
 
-## 💡 Product: feedback & suggestions 
+在 [公开路线图](https://roadmap.meilisearch.com/) 上查看我们的下一步，你可以在其中提交自己的想法并为自己想要的功能投票。
 
-See what's next on our [public roadmap](https://roadmap.meilisearch.com/), where you can submit your ideas and vote for the features you want. 
+你还可以访问我们的 [产品仓库](https://github.com/meilisearch/product)，就某个功能进行讨论并提供反馈。 欢迎参加当前的讨论。 我们期待看到你的评论。
 
-You can also go to our [Product repository](https://github.com/meilisearch/product) and open a discussion about a feature and give your feedback. Feel free to participate in the current discussions. We are looking forward to reading your comments.
+感谢所有的建议与反馈。 非常感谢你的支持!
 
-Any suggestion or feedback is highly appreciated. Thank you so much for your support!
+## 🥰 社区 & 开发者关系
 
+如果你想进一步了解我们如何在 Meilisearch 上处理开发者关系：流程，活动和计划，你可以查看我们的 [devrel 仓库](https://github.com/meilisearch/devrel).
 
-## 🥰 Community & Developer Relations 
+我们邀请你加入我们的 [Meilisearch 社区 Slack](https://slack.meilisearch.com/)，在这里你可以获得我们团队和社区的支持与帮助，也可以与其他人分享你的项目或交流 😁
 
-If you want to know more about how we handle Developer Relations at MeiliSearch: our processes, activities, and plans, you can check our [devrel repo](https://github.com/meilisearch/devrel).
+## 🖥 示例 
 
-We invite you to join our [Meilisearch Community Slack](https://slack.meilisearch.com/), where you can find support from our team and the community, but where you can also share your projects or just talk about random stuff with other members of the Meilisearch community 😁
+你想查看 Meilisearch 的运行效果吗? 请查看我们的 [专用仓库](https://github.com/meilisearch/demos)。
 
-## 🖥 Demos 
-
-Do you want to see Meilisearch in action? Check the list of our demos [in the dedicated repository](https://github.com/meilisearch/demos). 
-
-
-## 💌 Contact
+## 💌 联系
 
 
-### Forum 📋
+### 论坛 📋
 
-Our preferred method of communication is our forums on GitHub Discussions. Asynchronous long-form discussion communication with minimal repetition.
+我们推荐在 [GitHub 讨论论坛](https://github.com/meilisearch/Meilisearch/discussions) 上进行交流。这样够减少等待回复的时间与重复提问的现象。
 
-Your project announcements, support queries, and sweet, sweet praise all belong in the [Meilisearch forum]((https://github.com/meilisearch/Meilisearch/discussions)).
+关于功能建议，你可以在 [产品论坛](https://github.com/meilisearch/product/discussions) 提出。
 
+### 聊天室 💬
 
-For feature proposals, you can go to the [Product forum](https://github.com/meilisearch/product/discussions).
+更喜欢聊天室的快速与灵活性? 请加入我们的 [Slack 社区](https://slack.meilisearch.com/)。
 
-### Chat 💬
+我们认为聊天室与论坛是 [取长补短](https://blog.discourse.org/2018/04/effectively-using-discourse-together-with-group-chat/) 的，它们可以作为两种不同的对话方式共存。选择你合适的方式来与我们交流，更重要的是，我们不管你用哪种方式，我们只想听到你的声音。
 
-Prefer the speed and fluidity of chat? Then join our [Slack community](https://slack.meilisearch.com/).
+### GitHub Issues 🔩
 
-We think chat and forum discussions are [highly complementary](https://blog.discourse.org/2018/04/effectively-using-discourse-together-with-group-chat/), happily co-existing as two different modes of conversation. Try to use the right tool for the job, but most importantly, we just want to hear from you, regardless of the medium!
+Bug 应在对应仓库中提交 issues，例如以下仓库：[meilisearch/Meilisearch](https://github.com/meilisearch/Meilisearch/issues)，[meilisearch/documentation](https://github.com/meilisearch/documentation/issues) 等等。
 
-### GitHub issues 🔩
+## 我们正在招人! 🌍
 
-Bugs should be reported as issues in the corresponding repository, e.g., [meilisearch/Meilisearch](https://github.com/meilisearch/Meilisearch/issues), [meilisearch/documentation](https://github.com/meilisearch/documentation/issues), and so forth.
-
-
-## We are hiring! 🌍
-
-You can check the open positions on [this page](https://jobs.lever.co/meili).
+你可以在 [此页面](https://jobs.lever.co/meili) 上查看剩余岗位。
